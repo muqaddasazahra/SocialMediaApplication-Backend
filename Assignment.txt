@@ -1,0 +1,78 @@
+Assignment Response Form
+Title: Social media application
+Question:
+Objective:
+
+
+
+To create a comprehensive backend for a social media application using Node.js and Express.js. The backend should handle  post creation and management, commenting, likes, and follower relationships.
+
+
+
+Requirements:
+
+
+
+Node.js and Express.js installed
+
+Postgres database
+
+Sequelize ORM
+
+Tasks:
+
+
+
+1. User Management: (for future).
+
+a. Create a user model with attributes like username, email, password, and profile picture.
+
+b. Implement user registration and login endpoints.
+
+c. Implement password hashing and authentication using bcrypt or a similar library.
+
+d. Implement user profile management endpoints to update user information.
+
+
+
+2. Post Management:
+
+a. Create a post model with attributes like author, content, timestamp, and likes.
+
+b. Implement endpoints to create, read, update, and delete posts.
+
+c. Implement post filtering and sorting options. (for future).
+
+d. Implement image or file upload for posts (for future).
+
+
+
+3. Comment Management:
+
+a. Create a comment model with attributes like author, content, timestamp, and post reference.
+
+b. Implement endpoints to create, read, update, and delete comments.
+
+
+
+4. Likes:
+
+a. Create a model or data structure to store user likes for posts.
+
+b. Implement endpoints to like and unlike posts.
+
+c. Implement a mechanism to track the total number of likes for each post.
+
+d. Implement a way to display liked posts to users (Optional).
+
+
+
+5. Followers:
+
+a. Create a model or data structure to store follower relationships.
+
+b. Implement endpoints to follow and unfollow users.
+
+c. Implement a mechanism to track the number of followers and following for each user.
+
+d. Implement a way to display a user's followers and following (Optional).
